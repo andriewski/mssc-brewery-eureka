@@ -1,0 +1,11 @@
+server.port: 8761
+
+eureka:
+    client:
+#        for not working in cluster
+        register-with-eureka: false
+        fetch-registry: false
+
+logging:
+    level.com.netflix.eureka: OFF
+    level.com.netflix.discovery: OFF
