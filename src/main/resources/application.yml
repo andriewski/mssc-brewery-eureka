@@ -9,3 +9,10 @@ eureka:
 logging:
     level.com.netflix.eureka: OFF
     level.com.netflix.discovery: OFF
+
+#Should be env property!!! This is just for simple example
+spring:
+    security:
+        user:
+            name: netflix
+            password: eureka
